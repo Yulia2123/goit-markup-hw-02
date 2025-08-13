@@ -1,0 +1,100 @@
+/* header*/
+
+
+.logo {
+    
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #2e2f42;
+    text-decoration: none;
+}
+
+.logo-web {
+    color: #4d5ae5;
+}
+
+.logo-studio {
+    color: #2e2f42;
+}
+
+.header-nav-list-item a{
+    color: #2e2f42;
+    text-decoration: none;
+
+}
+.header-nav-list {
+    text-align: left;
+    list-style-type: none; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #2e2f42;
+}
+.header-socials-list {
+    list-style-type: none; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.header-socials-list address a {
+    font-style: normal;
+    color: #434455;
+    text-decoration: none;
+}
+
+/*main*/
+
+
+.hero-title{
+    text-align: center;
+    color:#FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.button {
+ color:#FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.second-title{
+    text-align: center;
+    color: #2e2f42;
+    
+}
+.benefits-list{
+    list-style-type: none;  
+}
+
+.third-title{
+    text-align:left;
+    color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.profession {
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.info {
+    color: #f4f4fd;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.logo-footer {
+    color: #f4f4fd;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+
+.logo-studio-footer {
+    color: #f4f4fd;
+}
+
+.images {
+    list-style-type: none; 
+}
