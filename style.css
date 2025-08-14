@@ -1,6 +1,10 @@
 /* header*/
 
-
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;;
+}
 .logo {
     
     font-family: "Raleway", sans-serif;
