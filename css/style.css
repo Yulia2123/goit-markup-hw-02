@@ -18,13 +18,11 @@ body {
     text-decoration: none;
 }
 
-.logo span {
+.logo {
     color: #4d5ae5; 
-    position: relative;
 }
 
-.logo span::after {
-    content: "STUDIO";
+.logo span {
     color: #2e2f42;
 }
 
