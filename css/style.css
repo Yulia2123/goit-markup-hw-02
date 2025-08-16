@@ -52,7 +52,7 @@ body {
 .header-nav-list-item:first-child .nav-link:hover,
 .header-nav-list-item:first-child .nav-link:focus {
     color: #404bbf;
-    outline: none; /* прибирає обведення при фокусі */
+    outline: none;
 }
 
 /* Контакти */
@@ -200,6 +200,27 @@ body {
     background-color: #FFFFFF;
     padding: 20px;
     border-radius: 8px;
+}
+.section-about .images li:first-child,
+.portfolio .images li:first-child {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Заголовки та параграфи всіх пунктів */
+.images li h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    font-weight: 500;
+}
+
+.images li p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455; /* колір для параграфів у другому, четвертому та першому пунктах */
 }
 
 .images {
