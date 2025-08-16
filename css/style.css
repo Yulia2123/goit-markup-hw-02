@@ -175,6 +175,27 @@ body {
     text-align: center;
 }
 
+.portfolio li p {
+    color: #434455;       /* колір тексту */
+    line-height: 1.5;     /* простір між рядками */
+    letter-spacing: 0.02em; /* відстань між літерами */
+}
+
+/* Перший елемент списку у Portfolio */
+.portfolio li:first-child {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Другий та четвертий пункт списку використовують ті ж класи, що й перший */
+.portfolio li:nth-child(2),
+.portfolio li:nth-child(4) {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+}
+
 .images {
     list-style: none;
     display: flex;
