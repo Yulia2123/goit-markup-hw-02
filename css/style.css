@@ -36,6 +36,9 @@ body {
     color: #404bbf;
 }
 
+.contacts-address {
+    font-style: normal; /* прибираємо курсив */
+}
 /* Контакти */
 .contact-link {
     color: #434455;
