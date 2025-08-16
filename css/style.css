@@ -110,36 +110,64 @@ body {
     outline: none;
 }
 
+.header-nav-list-item:first-child .nav-link:hover,
+.header-nav-list-item:first-child .nav-link:focus {
+    color: #404bbf;
+    outline: none;
+}
+
 /* main */
 
-.hero-title {
+.section-hero {
+    background-color: #2e2f42;
+    padding: 60px 0; /* вертикальні відступи */
     text-align: center;
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
 }
 
 .button {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     cursor: pointer;
+    border: none;
+    padding: 12px 24px; /* для естетики */
 }
 
-button:hover,
-button:focus {
+.button:hover,
+.button:focus {
     background-color: #404bbf;
     outline: none;
+}
+
+/* benefits */
+.section-benefits {
+    padding: 60px 20px;
 }
 
 .second-title {
     text-align: center;
     color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
 }
 
 .benefits-list {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .third-title {
@@ -155,22 +183,48 @@ button:focus {
     font-weight: 400;
 }
 
-.info {
+/* about & portfolio */
+.images {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+}
+
+.images li {
+    flex: 1 1 calc(25% - 20px);
+}
+
+.images img {
+    max-width: 100%;
+    display: block;
+}
+
+/* footer */
+footer {
+    background-color: #2e2f42;
     color: #f4f4fd;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    text-align: center;
+    padding: 40px 20px;
 }
 
 .logo-footer {
-    color: #f4f4fd;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
+    text-decoration: none;
+}
+
+.logo-web {
+    color: #4d5ae5;
 }
 
 .logo-studio-footer {
     color: #f4f4fd;
 }
 
-.images {
-    list-style-type: none;
-}   
+.info {
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
