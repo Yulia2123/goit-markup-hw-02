@@ -162,6 +162,7 @@ body {
     line-height: 1.11;      
     letter-spacing: 0.02em; 
     text-transform: capitalize;
+    text-align: center;
 }
 
 .benefits-list {
@@ -192,6 +193,32 @@ body {
     background-color: #FFFFFF; 
     padding: 20px; 
     border-radius: 8px; 
+}
+/* Заголовки секцій */
+.section-benefits-light h2,
+.section-about h2,
+.portfolio h2 {
+    font-size: 36px;      
+    line-height: 1.11;     
+    letter-spacing: 0.02em;
+    text-transform: capitalize; 
+    font-weight: 500;      
+    color: #2e2f42;        
+}
+
+/* Пункти списків у секціях */
+.benefits-list li h3,
+.benefits-list li p,
+.images li h3,
+.images li p {
+    font-weight: 500;       /* Жирність для заголовків */
+    color: #2e2f42;         /* Колір заголовків */
+}
+
+.benefits-list li p,
+.images li p {
+    line-height: 1.5;       /* Простір між рядками для параграфів */
+    letter-spacing: 0.02em; /* Відстань між літерами для параграфів */
 }
 
 .first-item-class { 
