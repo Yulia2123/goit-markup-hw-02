@@ -5,6 +5,7 @@ body {
     background-color: #FFFFFF;
 }
 
+/* Логотип */
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -20,29 +21,21 @@ body {
     color: #2e2f42;
 }
 
-.logo-web {
-    color: #4d5ae5;
-}
-
-.logo-studio {
-    color: #2e2f42;
-}
-
+/* Навігація */
 .header-nav-list {
-    list-style-type: none;
+    list-style: none;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     color: #2e2f42;
     margin: 0;
     padding: 0;
-
 }
 
 .nav-link {
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-        text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
 }
 
 .nav-link:hover,
@@ -51,12 +44,18 @@ body {
     outline: none;
 }
 
+.header-nav-list-item a:hover,
+.header-nav-list-item a:focus {
+    color: #4d5ae5;
+}
+
+/* Контакти */
 .contacts-address {
-    font-style: normal; /* прибирає курсив */
+    font-style: normal;
 }
 
 .contacts-list {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
@@ -77,50 +76,12 @@ body {
     outline: none;
 }
 
-.header-nav-list-item a {
-    color: #2e2f42;
-    text-decoration: none;
-}
+/* Main - секції */
 
-.header-nav-list-item a:hover,
-.header-nav-list-item a:focus {
-    color: #4d5ae5;
-    outline: none;
-}
-
-.header-nav-list-item:first-child a {
-    line-height: 1.5;
-}
-
-.header-socials-list {
-    list-style-type: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-}
-
-.header-socials-list address a {
-    font-style: normal;
-    color: #434455;
-    text-decoration: none;
-}
-
-.header-socials-list address a:hover,
-.header-socials-list address a:focus {
-    color: #4d5ae5;
-    outline: none;
-}
-
-.header-nav-list-item:first-child .nav-link:hover,
-.header-nav-list-item:first-child .nav-link:focus {
-    color: #404bbf;
-    outline: none;
-}
-
-/* main */
-
+/* Hero */
 .section-hero {
     background-color: #2e2f42;
-    padding: 60px 0; /* вертикальні відступи */
+    padding: 60px 0;
     text-align: center;
 }
 
@@ -129,7 +90,6 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
 }
 
@@ -139,11 +99,11 @@ body {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4d5ae5;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
+    font-family: "Roboto", sans-serif;
     cursor: pointer;
     border: none;
-    padding: 12px 24px; /* для естетики */
+    padding: 12px 24px;
 }
 
 .button:hover,
@@ -152,104 +112,71 @@ body {
     outline: none;
 }
 
-/* benefits */
-.section-benefits {
-    padding: 60px 20px;
-}
-
-.second-title {
-    font-size: 36px;      
-    line-height: 1.11;      
-    letter-spacing: 0.02em; 
-    text-transform: capitalize;
-    text-align: center;
-}
-
-.benefits-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.section-about, 
-.section-benefits-light { 
+/* Benefits */
+.section-benefits-light {
     background-color: #F4F4FD; 
     padding: 60px 20px; 
 }
 
-.section-about .second-title,
+.benefits-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .section-benefits-light .second-title {
     font-size: 36px;         
     line-height: 1.11;       
     letter-spacing: 0.02em;    
     text-transform: capitalize; 
     color: #2e2f42;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
+    text-align: center;
 }
 
-.section-about .images li:first-child,
-.section-benefits-light .benefits-list li:first-child {
-    background-color: #FFFFFF; 
-    padding: 20px; 
-    border-radius: 8px; 
-}
-/* Заголовки секцій */
-.section-benefits-light h2,
-.section-about h2,
-.portfolio h2 {
-    font-size: 36px;      
-    line-height: 1.11;     
-    letter-spacing: 0.02em;
-    text-transform: capitalize; 
-    font-weight: 500;      
-    color: #2e2f42;        
-}
-
-.section-benefits-light .benefits-list li p {
-    color: #434455;
-    line-height: 1.5;      /* з твоїх попередніх правил */
-    letter-spacing: 0.02em; /* з твоїх попередніх правил */
-}
-
-/* Пункти списків у секціях */
-.benefits-list li h3,
-.benefits-list li p,
-.images li h3,
-.images li p {
-    font-weight: 500;       /* Жирність для заголовків */
-    color: #2e2f42;         /* Колір заголовків */
-}
-
-.benefits-list li p,
-.images li p {
-    line-height: 1.5;       /* Простір між рядками для параграфів */
-    letter-spacing: 0.02em; /* Відстань між літерами для параграфів */
-}
-
-.first-item-class { 
+/* Перший елемент списку */
+.section-benefits-light .benefits-list li:first-child,
+.section-about .images li:first-child {
     background-color: #FFFFFF;
     padding: 20px;
     border-radius: 8px;
 }
 
-.third-title {
-    font-size: 20px;       
-    line-height: 1.2;     
-    letter-spacing: 0.02em; 
+/* Заголовки та параграфи у Benefits */
+.benefits-list li h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2e2f42;
-    font-weight: 500; 
+    font-weight: 500;
 }
 
-.profession {
-    line-height: 1.5;     
-    letter-spacing: 0.02em; 
-   /* color: #434455;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400; */
+.benefits-list li p {
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
+
+/* About & Portfolio */
+.section-about,
+.portfolio {
+    background-color: #F4F4FD;
+    padding: 60px 20px;
+}
+
+.section-about .second-title,
+.portfolio h2 {
+    font-size: 36px;         
+    line-height: 1.11;       
+    letter-spacing: 0.02em;    
+    text-transform: capitalize; 
+    color: #2e2f42;
+    font-weight: 500;
+    text-align: center;
+}
+
 .images {
-    list-style-type: none;
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -265,7 +192,21 @@ body {
     display: block;
 }
 
-/* footer */
+.images li h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    font-weight: 500;
+}
+
+.images li p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Footer */
 footer {
     background-color: #2e2f42;
     color: #f4f4fd;
