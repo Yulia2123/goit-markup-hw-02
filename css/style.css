@@ -97,6 +97,32 @@ body {
     font-weight: 400;
 }
 
+.portfolio {
+    background-color: #F4F4FD; /* колір фону секції */
+}
+
+.first-item-class {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.first-item-class h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    font-weight: 500;
+}
+
+.first-item-class p {
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
 /* Footer */
 .footer-main {
     background-color: #2e2f42;
