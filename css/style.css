@@ -263,27 +263,18 @@ body {
 }
 
 .logo-footer {
-    font-size: 18px;          /* розмір шрифту */
-    line-height: 1.17;        /* простір між рядками */
-    letter-spacing: 0.03em;   /* відступи між літерами */
-    text-transform: uppercase;/* великий регістр */
-    color: #4d5ae5;           /* колір тексту */
     font-family: "Raleway", sans-serif;
     font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5; /* колір WEB */
     text-decoration: none;
 }
 
-/* span всередині логотипу */
-.logo-footer span {
-    color: #f4f4fd;           /* колір для Studio */
-}
-
-.logo-web {
-    color: #4d5ae5;
-}
-
 .logo-studio-footer {
-    color: #f4f4fd;
+    color: #f4f4fd; /* колір Studio */
 }
 
 .footer-info {
