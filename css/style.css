@@ -1,3 +1,4 @@
+/* Загальні стилі */
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -22,75 +23,35 @@ body {
 }
 
 /* Навігація */
-.header-nav-list {
-    list-style: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    color: #2e2f42;
-    margin: 0;
-    padding: 0;
-}
-
 .nav-link {
+    color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
     text-decoration: none;
+    font-weight: 500;
 }
 
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
-    outline: none;
-}
-
-.header-nav-list-item a:hover,
-.header-nav-list-item a:focus {
-    color: #4d5ae5;
-}
-
-.header-nav-list-item:first-child .nav-link:hover,
-.header-nav-list-item:first-child .nav-link:focus {
-    color: #404bbf;
-    outline: none;
 }
 
 /* Контакти */
-.contacts-address {
-    font-style: normal;
-}
-
-.contacts-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
 .contact-link {
-    font-size: 16px;         
-    line-height: 1.5;        
-    letter-spacing: 0.02em;  
-    color: #434455;          
-    text-decoration: none;
+    color: #434455;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .contact-link:hover,
 .contact-link:focus {
-    color: #404bbf; 
-    outline: none;
+    color: #404bbf;
 }
-
-/* Main - секції */
 
 /* Hero */
-.section-hero {
-    background-color: #2e2f42;
-    padding: 60px 0;
-    text-align: center;
-}
-
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
@@ -107,49 +68,20 @@ body {
     background-color: #4d5ae5;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
-    cursor: pointer;
-    border: none;
-    padding: 12px 24px;
-}
-
-.button:hover,
-.button:focus {
-    background-color: #404bbf;
-    outline: none;
 }
 
 /* Benefits */
-.section-benefits-light {
-    background-color: #F4F4FD; 
-    padding: 60px 20px; 
-}
-
-.benefits-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.section-benefits-light .second-title {
-    font-size: 36px;         
-    line-height: 1.11;       
-    letter-spacing: 0.02em;    
-    text-transform: capitalize; 
+.second-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2e2f42;
     font-weight: 500;
     text-align: center;
 }
 
-/* Перший елемент списку */
-.section-benefits-light .benefits-list li:first-child,
-.section-about .images li:first-child {
-    background-color: #FFFFFF;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-/* Заголовки та параграфи у Benefits */
-.benefits-list li h3 {
+.third-title {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -157,125 +89,12 @@ body {
     font-weight: 500;
 }
 
-.benefits-list li p {
+.profession {
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-/* About & Portfolio */
-.section-about,
-.portfolio {
-    background-color: #F4F4FD;
-    padding: 60px 20px;
-}
-
-.section-about .second-title,
-.portfolio h2 {
-    font-size: 36px;         
-    line-height: 1.11;       
-    letter-spacing: 0.02em;    
-    text-transform: capitalize; 
-    color: #2e2f42;
-    font-weight: 500;
-    text-align: center;
-}
-
-.portfolio li p {
-    color: #434455;       /* колір тексту */
-    line-height: 1.5;     /* простір між рядками */
-    letter-spacing: 0.02em; /* відстань між літерами */
-}
-
-/* Перший елемент списку у Portfolio */
-.portfolio li:first-child {
-    background-color: #FFFFFF;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-/* Другий та четвертий пункт списку використовують ті ж класи, що й перший */
-.portfolio li:nth-child(2),
-.portfolio li:nth-child(4) {
-    background-color: #FFFFFF;
-    padding: 20px;
-    border-radius: 8px;
-}
-.section-about .images li:first-child,
-.portfolio .images li:first-child {
-    background-color: #FFFFFF;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.first-item-class { 
-    background-color: #FFFFFF;  /* Білий фон для виділення */
-    padding: 20px;              /* Внутрішні відступи */
-    border-radius: 8px;         /* Закруглені кути */
-}
-
-/* Заголовки пунктів списку */
-.first-item-class h3 {
-    font-size: 20px;            /* Розмір шрифту */
-    line-height: 1.2;           /* Відстань між рядками */
-    letter-spacing: 0.02em;     /* Відстань між літерами */
-    color: #2e2f42;             /* Колір тексту */
-    font-weight: 500;           /* Жирність */
-}
-
-/* Параграфи у пунктах списку */
-.first-item-class p {
-    color: #434455;             /* Колір тексту */
-    line-height: 1.5;           /* Простір між рядками */
-    letter-spacing: 0.02em;     /* Відстань між літерами */
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-}
-
-/* Заголовки та параграфи всіх пунктів */
-.images li h3 {
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    font-weight: 500;
-}
-
-.images li p {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455; /* колір для параграфів у другому, четвертому та першому пунктах */
-}
-
-.images {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 0;
-}
-
-.images li {
-    flex: 1 1 calc(25% - 20px);
-}
-
-.images img {
-    max-width: 100%;
-    display: block;
-}
-
-.images li h3 {
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    font-weight: 500;
-}
-
-.images li p {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
 }
 
 /* Footer */
@@ -283,7 +102,6 @@ body {
     background-color: #2e2f42;
     color: #f4f4fd;
     text-align: center;
-    padding: 40px 20px;
 }
 
 .logo-footer {
@@ -293,20 +111,19 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5; /* колір WEB */
+    color: #4d5ae5; /* WEB */
     text-decoration: none;
 }
 
 .footer-studio {
-    color: #f4f4fd; /* колір Studio */
+    color: #f4f4fd; /* Studio */
 }
 
 .footer-info {
-    line-height: 1.5;         /* простір між рядками */
-    letter-spacing: 0.02em;   /* відступи між літерами */
-    color: #f4f4fd;           /* колір тексту футера */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    margin-top: 20px;
     text-align: center;
 }
