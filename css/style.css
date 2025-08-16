@@ -208,6 +208,30 @@ body {
     border-radius: 8px;
 }
 
+.first-item-class { 
+    background-color: #FFFFFF;  /* Білий фон для виділення */
+    padding: 20px;              /* Внутрішні відступи */
+    border-radius: 8px;         /* Закруглені кути */
+}
+
+/* Заголовки пунктів списку */
+.first-item-class h3 {
+    font-size: 20px;            /* Розмір шрифту */
+    line-height: 1.2;           /* Відстань між рядками */
+    letter-spacing: 0.02em;     /* Відстань між літерами */
+    color: #2e2f42;             /* Колір тексту */
+    font-weight: 500;           /* Жирність */
+}
+
+/* Параграфи у пунктах списку */
+.first-item-class p {
+    color: #434455;             /* Колір тексту */
+    line-height: 1.5;           /* Простір між рядками */
+    letter-spacing: 0.02em;     /* Відстань між літерами */
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
 /* Заголовки та параграфи всіх пунктів */
 .images li h3 {
     font-size: 20px;
