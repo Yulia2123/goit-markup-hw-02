@@ -49,6 +49,12 @@ body {
     color: #4d5ae5;
 }
 
+.header-nav-list-item:first-child .nav-link:hover,
+.header-nav-list-item:first-child .nav-link:focus {
+    color: #404bbf;
+    outline: none; /* прибирає обведення при фокусі */
+}
+
 /* Контакти */
 .contacts-address {
     font-style: normal;
