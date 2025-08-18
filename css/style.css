@@ -31,6 +31,10 @@ body {
     font-weight: 500;
 }
 
+.header-nav-list {
+    list-style: none;
+}
+
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
@@ -42,7 +46,6 @@ body {
 /* Контакти */
 .contact-link {
     color: #434455;
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -57,13 +60,13 @@ body {
 /* Hero */
 
 .section-hero {
-    background-color: #2e2f42; /* фон секції */
+    background-color: #2e2f42; 
 }
 
 .hero-title {
-    text-align: center; /* вирівнювання заголовку по центру */
-    color: #ffffff;     /* колір тексту заголовку */
-    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: #ffffff;     
+
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -71,28 +74,27 @@ body {
 }
 
 .button {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    background-color: #4d5ae5; /* початковий колір кнопки */
-    cursor: pointer; /* курсор при наведенні */
+    background-color: #4d5ae5; 
+    cursor: pointer; 
     border: none;
 }
 
 .button:hover,
 .button:focus {
-    background-color: #404bbf; /* колір кнопки при ховері та фокусі */
+    background-color: #404bbf; 
     outline: none;
 }
 
 /* Benefits */
 .second-title {
-    text-align: center; /* заголовок по центру */
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    text-align: center; 
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -112,7 +114,6 @@ body {
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
 }
 
@@ -121,7 +122,6 @@ body {
 }
 
 .images li h3 {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -130,7 +130,6 @@ body {
 }
 
 .images li p {
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -138,7 +137,7 @@ body {
 }
 
 .portfolio {
-    background-color: #F4F4FD; /* колір фону секції */
+   /* background-color: #F4F4FD;*/ 
 }
 
 .first-item-class {
@@ -157,7 +156,6 @@ body {
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
 }
 
@@ -175,12 +173,12 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5; /* WEB */
+    color: #4d5ae5; 
     text-decoration: none;
 }
 
 .footer-studio {
-    color: #f4f4fd; /* Studio */
+    color: #f4f4fd; 
 }
 
 .footer-info {
@@ -189,5 +187,4 @@ body {
     color: #f4f4fd;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    text-align: center;
 }
