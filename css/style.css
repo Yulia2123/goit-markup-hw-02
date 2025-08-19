@@ -172,7 +172,7 @@ ul {
 .footer-main {
     background-color: #2e2f42;
     color: #f4f4fd;
-    text-align: center;
+    text-align: left;
 }
 
 .logo-footer {
@@ -196,5 +196,4 @@ ul {
     color: #f4f4fd;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    text-align: left;
 }
