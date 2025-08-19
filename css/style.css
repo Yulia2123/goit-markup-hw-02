@@ -35,6 +35,12 @@ body {
     list-style: none;
 }
 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
@@ -136,8 +142,11 @@ body {
     color: #434455;
 }
 
-.portfolio {
-   /* background-color: #F4F4FD;*/ 
+.header-nav-list,
+.contacts-list,
+.benefits-list,
+.images {
+    list-style: none;
 }
 
 .first-item-class {
